@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+header, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    min-height: 20vh;
+    background-color: #8a2be2;
+    color: #e7d8e9;
+    text-align: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+#barra {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#barra li a{
+    text-decoration: none;
+    color: azure;
+}
+#barra li a:hover{
+    text-decoration: underline;
+}
+
+aside{
+    width: 18vw;
+    padding: 20px;
+
+    background-color: #dfc1fc;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+aside h4{
+    color: #7706e1;
+}
+nav .aside{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8a2be2;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: #ebdafb;
+    padding: 30px;
+}
+
+#produtos img{
+    width: 150px;
+}
+article{
+    align-items: center;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+#titulo{
+    display: flex;
+    align-content: center;
+}
+#sobre{
+    
+
+}
+/*
+transition
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul{
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+ul li {
+    margin-left: 15px;
+}
+
+
+
+
+
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+main, aside{
+    min-height: 60vh;
+}
+
+
+
+main{
+    width: 90vw;
+
+}
+
+section img{
+    width: 150px;
+}
+

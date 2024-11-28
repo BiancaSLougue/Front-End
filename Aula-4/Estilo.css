@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    align-content: center;
+    font-size: 60px;
+    color: blueviolet;
+    
+}
+
+thead{
+    font-size: 30px;
+    
+    
+}
+
+table{
+    border-radius: 5%;
+    border-color: blueviolet;
+    margin: 0 auto;
+    border-style: solid;
+    background-color: rgb(212, 189, 234);
+    font-weight: bold;
+
+}
+
+.Título {
+    color: blueviolet;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+}
+
+th{
+    text-align: center;
+    width: 20px;
+}
+
+tr:hover{
+    scale: 1.05;
+
+}
+
+
